@@ -1,0 +1,70 @@
+h1{
+    color: rgb(107, 14, 161);
+    background-color: aliceblue;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*relative position. static is default, relative is movable, fixed doesn't move absolute moves based on parent and sticky moves after a certain point like fixed*/
+p{
+    color: blueviolet;
+    letter-spacing: 1px;
+    line-height: 25px;
+    column-count: 3;
+    column-gap: 5;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+}
+/*here*/
+ul{
+    border-width: 4px;
+    border-style: dashed;
+    border-color: black;
+    list-style-type: none;
+}
+
+li{
+    color: peru;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+/*
+display: block,
+display: inline,
+display:inline block
+*/
+
+div{
+    border: 2px solid hotpink;
+    margin: 20px;
+    padding:20px;
+}
+/*inherits from div*/
+p{
+    border: inherit;
+    margin: inherit;
+    padding:inherit;
+}
+
+span{
+    margin: 10px;
+}
+
+/*specific class chosen. can have multiple classes*/
+p.testing{
+    color:brown;
+}
+
+/*specify where you want to make change*/
+div ol li {
+    color: aqua;
+}
+
+a[href$=".se"]{
+    background-color: goldenrod;
+    text-transform: capitalize;
+}
+

@@ -1,0 +1,204 @@
+
+/*Border-box - box sizing (räkna in padding i bredden av element*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+header{
+    background-color:#ffe6f9 ;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px, rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 2.91581px 0px, rgb(0, 0, 0) -0.287171px 2.98622px 0px, rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px, rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px, rgb(0, 0, 0) -2.94502px -0.571704px 0px, rgb(0, 0, 0) -2.59586px -1.50383px 0px, rgb(0, 0, 0) -1.96093px -2.27041px 0px, rgb(0, 0, 0) -1.11013px -2.78704px 0px, rgb(0, 0, 0) -0.137119px -2.99686px 0px, rgb(0, 0, 0) 0.850987px -2.87677px 0px, rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px, rgb(0, 0, 0) 2.88051px -0.838247px 0px;
+    padding: 15px;
+    z-index: 5;
+    width:100%;
+    max-width:100%;
+    
+}
+article{
+    position: relative;
+    top:20px;
+}
+header h1{
+    display: inline;
+    position: relative;
+    left: 15px;
+    bottom: 5px;
+}
+
+.banner .welcome{
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    width: 30%;
+    height: 10%;
+    z-index: 3;
+    font-size: 20px;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px, rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 2.91581px 0px, rgb(0, 0, 0) -0.287171px 2.98622px 0px, rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px, rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px, rgb(0, 0, 0) -2.94502px -0.571704px 0px, rgb(0, 0, 0) -2.59586px -1.50383px 0px, rgb(0, 0, 0) -1.96093px -2.27041px 0px, rgb(0, 0, 0) -1.11013px -2.78704px 0px, rgb(0, 0, 0) -0.137119px -2.99686px 0px, rgb(0, 0, 0) 0.850987px -2.87677px 0px, rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px, rgb(0, 0, 0) 2.88051px -0.838247px 0px;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    top: 70px;
+}
+body{
+    background-color: rgb(253, 216, 222);
+    margin: 0px;
+    padding: 0px;
+}
+header img {
+    width: 3em;
+    position: relative;
+    top:5px;
+
+}
+nav{
+    z-index: 100;
+    position: fixed;
+    top: 1%;
+    left: 300px;
+    color: white;
+    
+    
+}
+
+nav ul{
+    white-space: nowrap;
+    color: white;
+    max-width: 100%;
+    padding: 0;
+    margin:0;
+
+}
+
+nav li{
+    width:50%;
+    display: inline-block;
+    font-size: 26px;
+    max-width: 1200px;
+    margin: 18px 90px;
+    width: auto;
+}
+
+nav a {
+    color: white;
+    
+    text-decoration:none;
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+
+main{
+ max-width: 100%;
+ width: 1200px;
+ margin: 80px auto;
+ padding: 0 40px;
+ box-sizing: border-box;
+}
+
+.images{
+    text-align: center;
+    margin: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.images li{
+    list-style: none;
+    width:60%;
+    display:inline-block;
+    margin: 50px 5%;
+    transition: all 500ms ease-in-out;
+
+}
+
+nav li:hover{
+    text-decoration: underline;
+}
+
+.images li img{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.images li:hover{
+    position: relative;
+    transform: scale(1.10);
+}
+
+
+
+section{
+    background-color: #ffe6f9;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    top: 12px;
+}
+
+.join h2{
+    position: relative;
+    top: 5px;
+}
+
+@media screen and (max-width: 1450px){
+    header h1{
+        font-size: 1.6em;
+    }
+    nav{
+        scale: 0.8;
+        left: 130px;
+        
+    }
+
+} 
+
+@media screen and (max-width: 1150px){
+    header h1{
+        font-size: 1.4em;
+    }
+    nav{
+        scale: 0.75;
+        left: 90px;
+        
+    }
+    nav li{
+        margin: 18px 50px;
+    }
+    .welcome h2{
+        font-size: 1.2em;
+    }
+
+} 
+
+@media screen and (max-width: 860px){
+  
+   
+    .welcome h2{
+        font-size: 0.9em;
+    }
+    header h1{
+        font-size: 1.3em;
+    }
+    nav{
+        scale: 0.75;
+        left: 110px;
+        top: 17px;
+        
+    }
+    nav li{
+        margin: 18px 30px;
+        font-size: 23px;
+    }
+
+}
+
+    
